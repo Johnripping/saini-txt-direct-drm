@@ -63,12 +63,12 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/+zSw5Viy_gX9lNmRl")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url=""),
-            InlineKeyboardButton(text="🛠️ Help", url=""),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/+zSw5Viy_gX9lNmRl"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+zSw5Viy_gX9lNmRl"),
         ],
     ]
 )
@@ -295,7 +295,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼08. /info - Your information.\n"
         f"┣⪼09. /stop - Stop the Running Task. 🚫\n"
         f"╰⪼🔗  Direct Send Link For Extract (with https://)\n\n"
-        f"**If you have any questions, feel free to ask [RAO BOTS🐦]()! 💬**\n"
+        f"**If you have any questions, feel free to ask [RAO BOTS🐦](https://t.me/+zSw5Viy_gX9lNmRl)! 💬**\n"
         )
     ) 
 
@@ -395,7 +395,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[RAO 𝘽𝙊𝙏𝙎🐦]()'
+        CR = '[RAO 𝘽𝙊𝙏𝙎🐦](https://t.me/+zSw5Viy_gX9lNmRl)'
     else:
         CR = raw_text3
 
@@ -601,7 +601,7 @@ async def txt_handler(bot: Client, m: Message):
                                f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                                f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                                f"🛑**Send** /stop **to stop process**\n┃\n" \
-                               f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [RAO BOTS🐦]()"
+                               f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [RAO BOTS🐦](https://t.me/+zSw5Viy_gX9lNmRl)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -630,7 +630,7 @@ async def txt_handler(bot: Client, m: Message):
                                f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                                f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                                f"🛑**Send** /stop **to stop process**\n┃\n" \
-                               f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [RAO BOTS🐦]()"
+                               f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [RAO BOTS🐦](https://t.me/+zSw5Viy_gX9lNmRl)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -659,7 +659,7 @@ async def txt_handler(bot: Client, m: Message):
                                f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                                f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                                f"🛑**Send** /stop **to stop process**\n┃\n" \
-                               f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [RAO BOTS🐦]()"
+                               f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [RAO BOTS🐦](https://t.me/+zSw5Viy_gX9lNmRl)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
