@@ -74,6 +74,11 @@ keyboard = InlineKeyboardMarkup(
 )
 
 # Image URLs for the random image feature
+image_urls = [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+]
 
 
 @bot.on_message(filters.command("cookies") & filters.private)
